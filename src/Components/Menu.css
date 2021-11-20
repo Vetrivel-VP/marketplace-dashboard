@@ -6,6 +6,8 @@ menu {
   flex-direction: column;
   align-items: center;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+  position: sticky;
+  top: 0;
 }
 
 menu img {
@@ -70,7 +72,7 @@ menu ul li:hover a {
   margin-top: auto;
 }
 
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 525px) {
   menu {
     min-width: 68px;
   }

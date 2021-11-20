@@ -1,5 +1,5 @@
 .container {
-  width: 100%;
+  width: calc(100% - 100px);
   padding: 20px;
   padding-top: 30px;
 }
@@ -153,7 +153,11 @@
   color: #f1f1f1;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 525px) {
+  .container {
+    width: calc(100% - 68px);
+  }
+
   .topContainer .inputBox {
     width: 120px;
     z-index: 101;
