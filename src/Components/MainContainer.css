@@ -316,6 +316,9 @@
 }
 
 @media only screen and (min-width: 525px) and (max-width: 950px) {
+  .maincontainer {
+    height: calc(100% - 25px);
+  }
   .maincontainer .left {
     width: calc(100% - 30%);
   }
