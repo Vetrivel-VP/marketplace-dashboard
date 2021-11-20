@@ -72,6 +72,6 @@ menu ul li:hover a {
 
 @media screen and (max-width: 500px) {
   menu {
-    width: 68px;
+    min-width: 68px;
   }
 }

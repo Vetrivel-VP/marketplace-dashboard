@@ -14,7 +14,7 @@ import {
 function Menu() {
   return (
     <menu>
-      <img src={logo} alt="" srcset="" />
+      <img src={logo} alt="" />
 
       <ul>
         <Icon icon={<FaDelicious />} />

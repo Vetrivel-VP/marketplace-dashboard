@@ -1,0 +1,29 @@
+.maincontainer {
+  width: 100%;
+  height: calc(100% - 45px);
+  display: flex;
+  padding-top: 15px;
+}
+
+.maincontainer .left {
+  width: calc(100% - 30%);
+}
+
+.maincontainer .left .banner {
+  width: 100%;
+  height: 300px;
+  background: #03073c;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+
+.maincontainer .left .banner .textContainer {
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+.maincontainer .right {
+  width: calc(100% - 70%);
+}
